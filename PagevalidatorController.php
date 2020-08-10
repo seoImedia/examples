@@ -77,7 +77,7 @@ class PagevalidatorController extends Controller
      * @param $data
      * @return string
      */
-    protected static function saveToDb($data)
+    protected static function saveToDb(string $data)
     {
 
         // вызов модели и добавление записи по результатам проверки
